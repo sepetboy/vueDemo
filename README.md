@@ -35,12 +35,12 @@ npm install --save-dev sass-loader
 # sass-loader依赖于node-sass
 npm install --save-dev node-sass
 
-在build文件夹下的webpack.base.conf.js的rules里面添加配置
+# 在build文件夹下的webpack.base.conf.js的rules里面添加配置
 {
   test: /\.sass$/,
   loaders: ['style', 'css', 'sass']
 }
-在使用scss编写样式的vue文件中，在其style标签上添加lang="scss"，如<style lang="scss">
+# 在使用scss编写样式的vue文件中，在其style标签上添加lang="scss"，如<style lang="scss">
 ```
 ## 添加Iconfont矢量图标
 ``` bash
