@@ -41,6 +41,7 @@ npm install --save-dev node-sass
   loaders: ['style', 'css', 'sass']
 }
 # 在使用scss编写样式的vue文件中，在其style标签上添加lang="scss"，如<style lang="scss">
+# 在webpack.base.conf.js文件中resolve下面为.scss文件的路径起一个别名，'styles': resolve('src/assets')
 ```
 ## 添加Iconfont矢量图标
 ``` bash
