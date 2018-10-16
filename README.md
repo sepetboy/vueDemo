@@ -31,9 +31,9 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ## 添加sass依赖
 ``` bash
-# npm install --save-dev sass-loader
-//sass-loader依赖于node-sass
-# npm install --save-dev node-sass
+npm install --save-dev sass-loader
+# sass-loader依赖于node-sass
+npm install --save-dev node-sass
 
 在build文件夹下的webpack.base.conf.js的rules里面添加配置
 {
