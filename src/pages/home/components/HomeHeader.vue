@@ -1,17 +1,15 @@
 <template>
-  <div>
-    <div class="header">
-      <div class="header-back">
-        <span class="iconfont">&#xe7ea;</span>
-      </div>
-      <div class="header-input">
-        <span class="iconfont">&#xe632;</span>
-        <span>输入城市/景点/游玩主题</span>
-      </div>
-      <div class="header-city">
-        三亚
-        <span class="iconfont arrow-icon">&#xe64a;</span>
-      </div>
+  <div class="header">
+    <div class="header-back">
+      <span class="iconfont">&#xe7ea;</span>
+    </div>
+    <div class="header-input">
+      <span class="iconfont">&#xe632;</span>
+      <span>输入城市/景点/游玩主题</span>
+    </div>
+    <div class="header-city">
+      三亚
+      <span class="iconfont arrow-icon">&#xe64a;</span>
     </div>
   </div>
 </template>
@@ -27,13 +25,9 @@ export default {
   // @import '~@/assets/varibles.scss';
   .header {
     display: flex;
-    position: absolute;
     height: .86rem;
     line-height: .86rem;
     background: $bgColor;
-    top:0;
-    left:0;
-    right:0;
     .header-back {
       width: .64rem;
       float: left;
