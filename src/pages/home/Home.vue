@@ -34,7 +34,7 @@ export default {
   },
   mounted () {
     var self = this
-    this.$remote.get('static/mock/index.json')
+    this.$remote.get('/api/index.json')
       .then(function (response) {
         self.swiperList = response.data.data.swiperList
         self.iconList = response.data.data.iconList
