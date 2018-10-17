@@ -14,20 +14,15 @@
 <script>
 export default {
   name: 'icons',
+  props: {
+    iconList: Array
+  },
   data () {
     return {
-      iconList: [],
       swiperOption: {
         autoplay: false
       }
     }
-  },
-  mounted () {
-    var self = this
-    this.$remote.get('static/mock/index.json')
-      .then(function (response) {
-        self.iconList = response.data.data.iconList
-      })
   },
   computed: {
     pages () {
