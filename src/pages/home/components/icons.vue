@@ -46,6 +46,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  @import '~styles/mixins.scss';
   .icons {
     width: 100%;
     font-size: 0;
@@ -61,6 +62,7 @@ export default {
       }
       p {
         margin-top: .2rem;
+        @include ellipsis();
       }
     }
   }

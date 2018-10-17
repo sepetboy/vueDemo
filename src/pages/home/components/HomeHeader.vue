@@ -32,6 +32,7 @@ export default {
       width: .64rem;
       float: left;
       color: #fff;
+      text-align: center;
     }
     .header-input {
       flex: 1;
@@ -49,6 +50,7 @@ export default {
       width: 1.24rem;
       float: right;
       color: #fff;
+      text-align: center;
       .arrow-icon {
         font-size: .24rem;
       }
