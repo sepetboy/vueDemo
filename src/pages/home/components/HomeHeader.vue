@@ -7,16 +7,21 @@
       <span class="iconfont">&#xe632;</span>
       <span>输入城市/景点/游玩主题</span>
     </div>
-    <div class="header-city">
-      三亚
-      <span class="iconfont arrow-icon">&#xe64a;</span>
-    </div>
+    <router-link to="City">
+      <div class="header-city">
+        {{this.city}}
+        <span class="iconfont arrow-icon">&#xe64a;</span>
+      </div>
+    </router-link>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HomeHeader'
+  name: 'HomeHeader',
+  props: {
+    city: String
+  }
 }
 </script>
 
